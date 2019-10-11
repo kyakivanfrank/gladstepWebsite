@@ -1,0 +1,465 @@
+body{
+    margin: 0%;
+    padding: 0;
+    background-color: #f4f4f4;}
+
+    .container{
+        width: 100%;
+    }
+
+
+/* this below is about the header */
+
+
+    #comm{
+        display: none;
+}
+
+
+
+
+
+#logo{
+    width: 10%;
+    float: left;
+    padding: 0px;
+    margin: 0px 10px 0px 0px;
+}
+.nav
+{
+    height: 30px;
+   background : linear-gradient(to right, rgb(9, 2, 61), rgb(20, 2, 185), rgb(44, 17, 168) ); 
+
+    padding: 10px;
+    border-bottom: green 1px solid;
+}
+
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+header h1
+{
+    /* padding: 30px 10px 0px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    float: left;
+    margin: 0px 10px 2px; 
+}
+
+header #heading2
+	{
+		display: none;
+	}
+
+
+ header h2
+{
+    color: #ffffff;
+    margin: 0;
+}
+.nav-icon
+{
+    float: right;
+}
+
+
+.navigation
+{
+    display: none;
+    
+}
+
+header ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header h4
+{
+    width:250px;
+    height:25px ;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #000080;
+    border-radius: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* line-height: 30px; */
+    margin: 0; 
+}
+
+#media{
+    display: inline;
+}
+
+#tel-div, #email-div
+{
+    height:50px; 
+}
+
+.contact-widgets
+{
+    margin-top: 200px;
+    z-index: 3;
+
+}
+
+.galleryitems
+{
+    width: 300px;
+    /*border: green 1px solid;*/
+}
+
+
+
+#tel-img, #email-img
+{
+    width: 29px;
+    height: 29px;
+    float: left;
+    padding: 8px;
+  background-color: #000080;
+  border-radius: 90%;
+}
+
+.mySlides
+{
+    /* display: none; */
+    width: 100%;
+
+}
+
+.fader
+{animation:fading 10s infinite}
+@keyframes
+ fading{
+     0%{opacity:0}
+ 50%{opacity:1}
+ 100%{opacity:0}
+}
+
+.slide-btn{
+    width: 8%;
+   font-size: 35px;
+    border-style: none;
+    color: gray;
+    background: #202020;
+    border-radius: 50%;
+}
+
+    .info
+    {
+        width: 100%;
+    }
+
+   
+    .info h2 
+    {
+        margin: 20px 10px;
+        padding: 0px 10px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 29px;
+        color: green;
+        line-height: 40px;
+    }
+    h3
+    {
+        padding: 10px 10px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        color: rgb(253, 34, 34);
+        line-height: 30px;
+        margin: 0;
+    }
+
+    .pillars h3
+    {
+    	color: rgb(6, 189, 250);
+    }
+
+
+section li
+{
+display: block;
+width: 80%;
+border-bottom: blue 1px groove;
+}
+
+
+
+    .info p, .activities-articles ,.pillar-details
+    {
+        padding: 10px 10px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #000080;
+        line-height: 24px;
+        margin: 0;
+    }
+
+    .activity-imgs{width: 100%}
+
+    .pillar-icons
+    {
+        width: 50px;
+        margin: 0px 0px 0px 60px;
+}
+
+.pillars{
+    width: 180px;
+    margin: 20px auto 0px auto;
+
+}
+
+
+footer  h4
+{
+    padding: 10px 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(216, 216, 0);
+    line-height: 30px;
+    margin: 0;
+}
+
+footer p
+{
+    padding: 10px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+    line-height: 24px;
+    margin: 0; 
+}
+
+footer h5
+{
+    padding: 10px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: green;
+    line-height: 24px;
+    margin: 0; 
+}
+
+footer{
+    height: 320px;
+    background-color:  #000080;
+}
+
+footer #rights
+{
+    padding: 10px 30px;
+    background-color: #202020;
+}
+
+footer #contact-info
+{
+    padding: 10px;
+}
+footer #social-media
+{
+    padding: 0px 50px;
+    margin-bottom: 10px; 
+}
+.social-iconz
+{
+	width: 25px;
+}
+
+footer #locato
+{
+    border-top: green 1px solid;
+    padding-bottom: 10px;
+}
+
+
+
+/*  if the display is of a tablet */
+
+/* it'll only run this code if the screen's minimum size is of a tablet */
+@media only screen and (min-width: 768px){
+
+	header #heading
+	{
+		display: none;
+	}
+	header #heading2
+	{
+		display: block;
+	}
+
+.galleryitems
+{
+    width: 280px;
+    /*border: green 1px solid;*/
+}
+
+
+    .container{
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    section li
+{
+	display: table-cell;
+	width: 30%;
+}
+
+   footer #footer-divA {
+   padding: 0px 80px;
+   }
+
+
+}
+
+
+/*  if the display is of a desktop/ laptop */
+
+/* it'll ony run this code if the screen's minimum size is of a laptop /desktop */
+@media only screen and (min-width: 1025px){
+
+    .container{
+        width: 80%;
+    }
+
+.contact-widgets
+{
+    display: none;
+
+}
+
+.galleryitems
+{
+    width: 280px;
+    /*border: green 1px solid;*/
+}
+
+
+    #comm{
+        display: block;
+    height: 35px;
+    background-color: #202020;
+}
+#comm h4
+{
+    background-color: #202020;
+}
+
+#tel, #mail
+{
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    float: left;
+}
+
+	header #heading
+	{
+		display: none;
+	}
+	header #heading2
+	{
+        display: block;
+        font-size: 30px;
+        margin-top: 40px;
+	}
+
+	.nav
+{
+    height: 120px;
+    background-color: #000080;
+    padding: 15px;
+    border-bottom: green 3px solid;
+}
+
+/*this one*/
+.navigation
+{
+    float: right;
+    z-index: 3;
+    display: block;
+    margin: 80px 150px 0px 0px;
+    /*margin: 80px 400px 0px 0px; 
+    /*margin-right: 30px; */
+}
+
+.nav-icon
+{
+    display: none;
+}
+ 
+ ul {padding: 0px;
+margin: 0px;}
+
+
+.navigation ul li 
+{
+    display: inline;
+    /*font-weight: bold;*/
+    text-decoration: none;
+    /*background-color: white;*/
+    padding: 15px 10px 10px 10px;
+}
+.navigation ul li a
+{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+header #home{
+    background-color: #202020;
+}
+
+#logo{
+    width: 120px;
+    float: left;
+    margin: 0px 0px 10px 160px;
+}
+
+section li
+{
+	display: table-cell;
+	width: 30%;
+}
+
+.info
+    {
+
+        width: 100%;
+    }
+
+    .info h2
+    {
+        margin: 20px 0px;
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+
+
+    .activity-imgs
+    {width: 50%}
+
+    /* .activities-articles p{ display: inline; } 
+
+	/*.pillar-collect{width: 30%}
+     #pillars
+    {display: inline;}
+
+footer{
+width: 100%
+}
+
+}
+
